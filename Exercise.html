@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tas</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+        
+        .leftpart{
+            position: fixed;
+            float: left;
+            background: #DCDCDC;
+            width: 30%;
+            height: 100%;
+            border: none;
+            
+        }
+        
+        ul{
+            list-style: none;
+            text-align: left;
+            padding: 10px;
+            margin: 0;     
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        
+        #home{
+            float: right;
+            width: 70%;
+            background: #6A5ACD;
+            height: 700px;
+            border: none;
+        }
+        
+        #about{
+            float: right;
+            width: 70%;
+            background: #33cccc;
+            height: 700px;
+            border: none;
+        }
+        
+        #support{
+            float: right;
+            width: 70%;
+            background: #3CB371;
+            height: 700px;
+            border: none;
+        }
+        h2{ 
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftpart">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </div>
+        <div class="rightpart">
+            <div id="home">
+                <h2>Home</h2>
+            </div>
+            
+            <div id="about">
+                <h2>About</h2>
+            </div>
+
+            <div id="support">
+                <h2>Support</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
